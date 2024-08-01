@@ -6,8 +6,8 @@ The code inside my_project & tests is auto generated from ChatGPT, and uses NumP
 The purpose of that is to show how those dependencies are handled by Poetry, these can be removed!
 Remove them with:
 `poetry remove numpy`
-`poetry remove requests
-`
+
+`poetry remove requests`
 
 To use this as your own base repository, you'll need to do the following.
 
@@ -20,7 +20,9 @@ To use this as your own base repository, you'll need to do the following.
 
 Then to use tox to run your tests, linting & building you can do the following:
 `tox -e py311`
+
 `tox -e lint`
+
 `tox -e build`
 
 Or simply run: `tox` to run all 3.
