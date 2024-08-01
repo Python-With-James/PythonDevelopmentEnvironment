@@ -35,7 +35,9 @@ The linting rules are held inside the ruff.toml file check the ruff docs for the
 
 Adding new dependencies
 =======================
-To add r
+To add new dependencies you can do:
+`poetry add <package>`
+
 
 
 
